@@ -41,8 +41,8 @@ docs/: Сгенерированная Swagger-документация (swagger.
 Шаги для запуска
 
 Клонируйте репозиторий:
-git clone <URL-репозитория>
-cd task-manager
+```git clone <URL-репозитория>```
+```cd task-manager```
 
 
 Настройте базу данных PostgreSQL:
@@ -52,6 +52,7 @@ CREATE DATABASE task_manager;
 
 
 Создайте таблицу tasks:\c task_manager
+```SQL
 CREATE TABLE tasks (
     id SERIAL PRIMARY KEY,
     title VARCHAR(255) NOT NULL,
@@ -59,6 +60,7 @@ CREATE TABLE tasks (
     status INTEGER NOT NULL,
     created_at TIMESTAMP NOT NULL
 );
+```
 
 
 
@@ -71,16 +73,16 @@ CREATE TABLE tasks (
 
 
 Установите зависимости:
-go mod tidy
+```go mod tidy```
 
 
 Сгенерируйте Swagger-документацию:
-swag init
+```swag init```
 
 Это создаст файлы docs/swagger.json и docs/swagger.yaml.
 
 Запустите приложение:
-go run cmd/main.go
+```go run cmd/main.go```
 
 
 Сервер запустится на порту 8080.
@@ -98,9 +100,16 @@ go run cmd/main.go
 Примеры использования
 1. Создание задачи
 Создайте новую задачу с помощью POST-запроса:
-curl -X POST http://localhost:8080/tasks -H "Content-Type: application/json" -d '{"title":"Новая задача","description":"Описание задачи","status":0}'
+```
+{
+"title":"Новая задача",
+"description":"Описание задачи",
+"status":0
+}
+```
 
 Ответ:
+```
 {
   "id": 1,
   "title": "Новая задача",
@@ -108,12 +117,14 @@ curl -X POST http://localhost:8080/tasks -H "Content-Type: application/json" -d 
   "status": 0,
   "created_at": "2025-06-22T13:45:30Z"
 }
+```
 
 2. Получение всех задач
 Получите список всех задач:
 curl http://localhost:8080/tasks
 
 Ответ:
+```
 [
   {
     "id": 1,
@@ -123,12 +134,13 @@ curl http://localhost:8080/tasks
     "created_at": "2025-06-22T13:45:30Z"
   }
 ]
-
+```
 3. Получение задачи по ID
 Получите задачу с ID 1:
 curl http://localhost:8080/tasks/1
 
 Ответ:
+```
 {
   "id": 1,
   "title": "Новая задача",
@@ -136,17 +148,24 @@ curl http://localhost:8080/tasks/1
   "status": 0,
   "created_at": "2025-06-22T13:45:30Z"
 }
+```
 
 4. Обновление задачи
 Обновите задачу с ID 1:
-curl -X PUT http://localhost:8080/tasks/1 -H "Content-Type: application/json" -d '{"title":"Обновлённая задача","description":"Новое описание","status":1}'
+```
+{
+"title":"Обновлённая задача",
+"description":"Новое описание",
+"status":1
+}
+```
 
 Ответ:
 "Задача обновлена"
 
 5. Удаление задачи
 Удалите задачу с ID 1:
-curl -X DELETE http://localhost:8080/tasks/1
+DELETE http://localhost:8080/tasks/1
 
 Ответ:
 "Задача удалена"
@@ -163,10 +182,11 @@ curl http://localhost:8080/tasks
 
 7. Проверка логов
 Откройте файл logs.txt, чтобы просмотреть логи операций, например:
+```
 {"level":"info","msg":"Сервер запускается на :8080","time":"2025-06-22T13:45:00Z"}
 {"level":"info","msg":"Задача создана: 1","time":"2025-06-22T13:45:30Z"}
 {"level":"info","msg":"Получены все задачи","time":"2025-06-22T13:46:00Z"}
-
+```
 Дополнительные замечания
 
 Статусы задач:
@@ -174,10 +194,7 @@ curl http://localhost:8080/tasks
 1: В процессе
 2: Выполнена
 
-
 Таймер каждые 5 минут проверяет задачи со статусом 2 (Выполнена), выводит их в консоль и удаляет из базы данных.
 Логи записываются в logs.txt в формате JSON для удобного анализа.
 Для тестирования используйте Swagger UI (http://localhost:8080/swagger/index.html) или утилиты вроде curl или Postman.
 
-Лицензия
-MIT License
