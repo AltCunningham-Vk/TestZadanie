@@ -34,9 +34,6 @@ docs/: Сгенерированная Swagger-документация (swagger.
 
 Установленный Go (версия 1.16 или выше).
 Установленный PostgreSQL (версия 12 или выше).
-Утилита swag для генерации Swagger-документации:go install github.com/swaggo/swag/cmd/swag@latest
-
-
 
 Шаги для запуска
 
@@ -47,8 +44,11 @@ docs/: Сгенерированная Swagger-документация (swagger.
 
 Настройте базу данных PostgreSQL:
 
-Создайте базу данных:psql -U postgres
+Создайте базу данных:
+psql -U postgres
+```SQL
 CREATE DATABASE task_manager;
+```
 
 
 Создайте таблицу tasks:\c task_manager
