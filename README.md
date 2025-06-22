@@ -20,16 +20,24 @@
 - **Архитектура:** Чистая архитектура (слои: model, service, repository, handler, timer)
 
 Структура проекта
-
-- **cmd/main.go:** Точка входа приложения, инициализация компонентов и запуск HTTP-сервера.
-- **internal/model/model.go:** Определяет структуру задачи (Task).
-- **internal/config/config.go:** Настройка подключения к базе данных.
-- **internal/repository/task_repository.go:** Взаимодействие с базой данных (SQL-запросы).
-- **internal/service/task_service.go:** Бизнес-логика приложения.
-- **internal/handler/task_handler.go:** Обработка HTTP-запросов.
-- **internal/timer/timer.go:** Периодическая проверка завершённых задач.
-- **docs/:** Сгенерированная Swagger-документация (swagger.json, swagger.yaml).
-
+```text
+├──cmd
+│   ├── main.go: Точка входа приложения, инициализация компонентов и запуск HTTP-сервера.
+├── internal
+│   ├── model
+│   │   ├── model.go: Определяет структуру задачи (Task).
+│   ├── config
+│   │   ├── config.go: Настройка подключения к базе данных.
+│   ├── repository
+│   │   ├── task_repository.go: Взаимодействие с базой данных (SQL-запросы).
+│   ├── service
+│   │   ├── task_service.go: Бизнес-логика приложения.
+│   ├── handler
+│   │   ├── task_handler.go: Обработка HTTP-запросов.
+│   ├── timer
+│   │   ├── timer.go: Периодическая проверка завершённых задач.
+├── docs/: Сгенерированная Swagger-документация (swagger.json, swagger.yaml).
+```
 Инструкции по запуску
 Требования
 
