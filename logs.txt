@@ -1,0 +1,56 @@
+{"level":"info","msg":"Created task concurrently:13","time":"2025-06-22T13:22:10+03:00"}
+{"level":"info","msg":"Created task concurrently:14","time":"2025-06-22T13:22:10+03:00"}
+{"level":"info","msg":"Created task concurrently:15","time":"2025-06-22T13:22:10+03:00"}
+{"level":"info","msg":"Created task concurrently:16","time":"2025-06-22T13:22:10+03:00"}
+{"level":"info","msg":"Created task concurrently:17","time":"2025-06-22T13:22:10+03:00"}
+{"level":"info","msg":"Server starting on :8080","time":"2025-06-22T13:22:10+03:00"}
+{"level":"info","msg":"Retrieved all tasks","time":"2025-06-22T13:22:27+03:00"}
+{"level":"info","msg":"No completed tasks found","time":"2025-06-22T13:27:10+03:00"}
+{"level":"info","msg":"No completed tasks found","time":"2025-06-22T13:32:10+03:00"}
+{"level":"info","msg":"Created task concurrently:18","time":"2025-06-22T13:34:42+03:00"}
+{"level":"info","msg":"Created task concurrently:19","time":"2025-06-22T13:34:42+03:00"}
+{"level":"info","msg":"Created task concurrently:20","time":"2025-06-22T13:34:42+03:00"}
+{"level":"info","msg":"Created task concurrently:21","time":"2025-06-22T13:34:42+03:00"}
+{"level":"info","msg":"Created task concurrently:22","time":"2025-06-22T13:34:42+03:00"}
+{"level":"info","msg":"Server starting on :8080","time":"2025-06-22T13:34:42+03:00"}
+{"level":"info","msg":"Retrieved all tasks","time":"2025-06-22T13:34:52+03:00"}
+{"level":"info","msg":"Created task concurrently:23","time":"2025-06-22T13:36:31+03:00"}
+{"level":"info","msg":"Created task concurrently:24","time":"2025-06-22T13:36:31+03:00"}
+{"level":"info","msg":"Created task concurrently:25","time":"2025-06-22T13:36:31+03:00"}
+{"level":"info","msg":"Created task concurrently:26","time":"2025-06-22T13:36:31+03:00"}
+{"level":"info","msg":"Created task concurrently:27","time":"2025-06-22T13:36:31+03:00"}
+{"level":"info","msg":"Server starting on :8080","time":"2025-06-22T13:36:31+03:00"}
+{"level":"info","msg":"Retrieved all tasks","time":"2025-06-22T13:36:40+03:00"}
+{"level":"info","msg":"No completed tasks found","time":"2025-06-22T13:41:31+03:00"}
+{"level":"info","msg":"Created task concurrently:28","time":"2025-06-22T13:42:41+03:00"}
+{"level":"info","msg":"Created task concurrently:29","time":"2025-06-22T13:42:41+03:00"}
+{"level":"info","msg":"Created task concurrently:30","time":"2025-06-22T13:42:41+03:00"}
+{"level":"info","msg":"Created task concurrently:31","time":"2025-06-22T13:42:41+03:00"}
+{"level":"info","msg":"Created task concurrently:32","time":"2025-06-22T13:42:41+03:00"}
+{"level":"info","msg":"Server starting on :8080","time":"2025-06-22T13:42:41+03:00"}
+{"level":"info","msg":"Retrieved all tasks","time":"2025-06-22T13:42:51+03:00"}
+{"level":"info","msg":"No completed tasks found","time":"2025-06-22T13:47:41+03:00"}
+{"level":"info","msg":"Created task concurrently:33","time":"2025-06-22T13:49:12+03:00"}
+{"level":"info","msg":"Created task concurrently:34","time":"2025-06-22T13:49:12+03:00"}
+{"level":"info","msg":"Created task concurrently:35","time":"2025-06-22T13:49:12+03:00"}
+{"level":"info","msg":"Created task concurrently:36","time":"2025-06-22T13:49:12+03:00"}
+{"level":"info","msg":"Created task concurrently:37","time":"2025-06-22T13:49:13+03:00"}
+{"level":"info","msg":"Server starting on :8080","time":"2025-06-22T13:49:13+03:00"}
+{"level":"info","msg":"Retrieved all tasks","time":"2025-06-22T13:49:25+03:00"}
+{"level":"info","msg":"No completed tasks found","time":"2025-06-22T13:54:12+03:00"}
+{"level":"info","msg":"Server starting on :8080","time":"2025-06-22T13:55:53+03:00"}
+{"level":"info","msg":"Retrieved all tasks","time":"2025-06-22T13:56:03+03:00"}
+{"level":"info","msg":"Task created:1","time":"2025-06-22T13:56:16+03:00"}
+{"level":"info","msg":"Retrieved all tasks","time":"2025-06-22T13:56:25+03:00"}
+{"level":"info","msg":"Retrieved task:1","time":"2025-06-22T13:56:58+03:00"}
+{"level":"info","msg":"No completed tasks found","time":"2025-06-22T14:00:53+03:00"}
+{"level":"info","msg":"No completed tasks found","time":"2025-06-22T14:05:53+03:00"}
+{"level":"info","msg":"No completed tasks found","time":"2025-06-22T14:10:53+03:00"}
+{"level":"info","msg":"No completed tasks found","time":"2025-06-22T14:15:53+03:00"}
+{"level":"info","msg":"No completed tasks found","time":"2025-06-22T14:20:53+03:00"}
+{"level":"info","msg":"No completed tasks found","time":"2025-06-22T14:25:53+03:00"}
+{"level":"info","msg":"No completed tasks found","time":"2025-06-22T14:30:53+03:00"}
+{"level":"info","msg":"No completed tasks found","time":"2025-06-22T14:35:53+03:00"}
+{"level":"info","msg":"No completed tasks found","time":"2025-06-22T14:40:53+03:00"}
+{"level":"info","msg":"No completed tasks found","time":"2025-06-22T14:45:53+03:00"}
+{"level":"info","msg":"No completed tasks found","time":"2025-06-22T14:50:53+03:00"}
