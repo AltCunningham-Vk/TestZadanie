@@ -62,7 +62,7 @@ CREATE DATABASE task_manager;
 \c task_manager;
 ```
 
-Создайте таблицу tasks:\c task_manager
+Создайте таблицу tasks:
 ```SQL
 CREATE TABLE tasks (
     id SERIAL PRIMARY KEY,
@@ -78,7 +78,10 @@ CREATE TABLE tasks (
 
 Настройте подключение к базе данных:
 
-- Откройте файл internal/config/config.go и обновите строку подключения:connStr := "user=postgres password=ВАШ_ПАРОЛЬ dbname=task_manager sslmode=disable"
+- Откройте файл internal/config/config.go и обновите строку подключения:
+```Go
+ connStr := "user=postgres password=ВАШ_ПАРОЛЬ dbname=task_manager sslmode=disable"
+```
 
 - Замените ВАШ_ПАРОЛЬ на пароль для пользователя postgres.
 
@@ -103,8 +106,8 @@ CREATE TABLE tasks (
 
 Откройте Swagger UI:
 
-Перейдите в браузере по адресу: http://localhost:8080/swagger/index.html.
-Используйте веб-интерфейс для тестирования API.
+- Перейдите в браузере по адресу: http://localhost:8080/swagger/index.html.
+- Используйте веб-интерфейс для тестирования API.
 
 
 
